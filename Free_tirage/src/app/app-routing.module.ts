@@ -3,10 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { AccueilComponent } from './accueil/accueil.component';
 
 const routes: Routes = [
- /* {
-    path:"Accueil",
-    Component:AccueilComponent,
-  },*/
+ {
+  path:"",
+  redirectTo:"/accuiel",
+ }
 ];
 
 @NgModule({

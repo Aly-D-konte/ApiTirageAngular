@@ -5,36 +5,84 @@ td /* Toutes les cellules des tableaux... */
 table
 {
     border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    font-size:30px;
+    background-color: #034D48;
+    margin: -10px;
+    width: 750px;
+
 }
-td
+th
 {
     border: 1px solid black;
 }
+
 .container .content{
     position: relative;
-    margin-top: 10vh;
-    min-height: 90vh;
+    margin-top: 3vh;
+    min-height: 20vh;
 }
 .container .content .cards{
-    padding: 20px 15px;
+   // padding: 50px 30px;
     display: flex;
     align-items: center;
+    margin-left: -4%;
+
     //justify-content:space-between;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
 }
 
 .container .content .cards .card{
-    width: 250px;
-    height: 150px;
-    background: white;
-    margin: 20px 10px;
-   // display: flex;
-   // align-items: center;
-   // justify-content: space-around;
-   // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0, 0, 0.19) ;
+    background: #034D48;
+    margin: 40px;
+    display: flex;
+    //align-items: center;
+    //justify-content: space-between;
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0, 0, 0.19) ;
 }
-/*
+
 .container .content .cards .card .box{
-    width: 60px;
-    height: 60px;
-}*/
+    width: 245px;
+    height: 80px;
+}
+h3{
+    width: 180px;
+    color: #FFFFFF;
+}
+h1{
+    width: 190px;
+    height: 20px;
+    font-size: 30px;
+    margin-top: -1%;
+    color: #FFFFFF;
+
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.ligne{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: baseline;
+
+}
+.image{
+    margin-top: -25px;
+    font-size: 20px;
+}
+.btn{
+    border: 1px solid black;
+    margin-left:180vh;
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
