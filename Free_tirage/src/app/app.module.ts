@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AccueilComponent,
+    TirageComponent,
+    ListeTireComponent
   ],
   imports: [
     BrowserModule,
