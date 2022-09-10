@@ -11,6 +11,7 @@ import { ListeTireComponent } from './liste-tire/liste-tire.component';
 @NgModule({
   declarations: [
     AppComponent,
+    //test
     AccueilComponent,
     TirageComponent,
     ListeTireComponent
